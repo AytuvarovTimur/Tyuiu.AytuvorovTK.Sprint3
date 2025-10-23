@@ -11,7 +11,7 @@ namespace Tyuiu.AytuvorovTK.Sprint3.Task1.V17.Lib
                 multseries *= Math.Pow(2 / Math.Cos(value), startValue);
                 startValue++;
             }
-            return Math.Round(multseries, 2);
+            return Math.Round(multseries, 3);
         }
     }
 }
