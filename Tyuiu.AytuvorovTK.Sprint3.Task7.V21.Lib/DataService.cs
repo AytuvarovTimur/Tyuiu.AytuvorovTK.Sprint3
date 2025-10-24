@@ -14,7 +14,7 @@ namespace Tyuiu.AytuvorovTK.Sprint3.Task7.V21.Lib
             {
                 if (x == 0)
                 {
-                    y = -2.0;
+                    y = 0;
                     valueArray[count] = Math.Round(y, 2);
                     count++;
                 }
