@@ -20,7 +20,7 @@ namespace Tyuiu.AytuvorovTK.Sprint3.Task7.V21.Lib
                 }
                 else
                 {
-                    y = (2 * Math.Cos(x) + 2 / (2 * x - 1)) + Math.Cos(x) - 5 * x + 3;
+                    y = ((2 * Math.Cos(x) + 2) / (2 * x - 1)) + Math.Cos(x) - 5 * x + 3;
                     valueArray[count] = Math.Round(y, 2);
                     count++;
                 }
